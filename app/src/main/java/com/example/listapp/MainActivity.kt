@@ -18,5 +18,6 @@ class MainActivity : AppCompatActivity() {
         val three = 3
         val four = 4
         val five = 5
+        val six =6
     }
 }
