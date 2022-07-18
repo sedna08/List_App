@@ -10,8 +10,8 @@ class MainActivity : AppCompatActivity() {
         val binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        binding.textView.text = "Hello Earth"
+        binding.textView.text = "Edited This"
 
-        val zero = 0
+        val zero = 5
     }
 }
