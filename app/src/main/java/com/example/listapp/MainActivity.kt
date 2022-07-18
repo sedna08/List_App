@@ -24,6 +24,8 @@ class MainActivity : AppCompatActivity() {
         val soafj = 9
 
         binding.textView.text = "Edited This"
+
+        binding.textView.text = "Edited This"
         binding.textView.text = "Edited This"
         binding.textView.text = "Edited This"
         binding.textView.text = "Edited This"
