@@ -22,5 +22,7 @@ class MainActivity : AppCompatActivity() {
         val seven =7
         val esit = 6
         val soafj = 9
+
+        binding.textView.text = "Edited This"
     }
 }
