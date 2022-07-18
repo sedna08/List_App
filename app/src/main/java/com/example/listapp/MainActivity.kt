@@ -14,6 +14,7 @@ class MainActivity : AppCompatActivity() {
 
         binding.textView.text = "Edited This"
 
-        binding.textView.text = "And This"
+        binding.textView.text = "And This here"
+
     }
 }
