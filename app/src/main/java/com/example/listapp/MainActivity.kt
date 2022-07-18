@@ -19,5 +19,8 @@ class MainActivity : AppCompatActivity() {
         val four = 4
         val five = 5
         val six =6
+        val seven =7
+        val esit = 6
+        val soafj = 9
     }
 }
