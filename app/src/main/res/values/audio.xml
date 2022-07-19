@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="dota2_voicelines">
+        <item>@raw/dragonknight_voiceline</item>
+        <item>@raw/invoker_voiceline</item>
+        <item>@raw/luna_voiceline</item>
+        <item>@raw/lina_voiceline</item>
+        <item>@raw/mirana_voiceline</item>
+    </array>
+
+    <array name="lol_voicelines">
+        <item>@raw/jinx_voiceline</item>
+        <item>@raw/caitlyn_voiceline</item>
+        <item>@raw/vi_voiceline</item>
+        <item>@raw/jayce_voiceline</item>
+        <item>@raw/ekko_voiceline</item>
+    </array>
+</resources>
