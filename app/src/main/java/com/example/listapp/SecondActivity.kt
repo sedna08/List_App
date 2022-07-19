@@ -10,5 +10,13 @@ class SecondActivity : AppCompatActivity() {
         val binding = ActivitySecondBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
+        val bundle: Bundle? = intent.extras
+        val game = bundle!!.getString("game")
+        val position = bundle!!.getInt("position")
+
+        binding.tvCharacterName.text = resources.getStringArray(R.array.dota2_hero_names)[position]
+        binding.tvCharacterName.text = resources.getStringArray(R.array.dota2_short_description)[position]
+        binding.tvCharacterName.text = resources.getStringArray(R.array.dota2_hero_names)[position]
+
     }
 }

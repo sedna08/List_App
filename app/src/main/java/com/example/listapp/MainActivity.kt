@@ -1,6 +1,7 @@
 package com.example.listapp
 
 import android.app.Activity
+import android.content.Intent
 import android.content.res.TypedArray
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -48,11 +49,22 @@ class MainActivity : AppCompatActivity() {
             heroChampionName1[position]
             Toast.makeText(this, heroChampionName1[position] + "\n" + attributeRole1[position], Toast.LENGTH_SHORT).show()
             // action to do if item is clicked
+            val game = "dota2"
+            val intent= Intent(this, SecondActivity::class.java)
+            intent.putExtra("game", game)
+            intent.putExtra("position", position)
+            startActivity(intent)
+
         }
 
         binding.lvChampions.setOnItemClickListener { adapterView, view, position, l ->
             Toast.makeText(this, heroChampionName2[position] + "\n" + attributeRole2[position], Toast.LENGTH_SHORT).show()
             // action to do if item is clicked
+            val game = "lol"
+            val intent= Intent(this, SecondActivity::class.java)
+            intent.putExtra("game", game)
+            intent.putExtra("position", position)
+            startActivity(intent)
         }
     }
 }

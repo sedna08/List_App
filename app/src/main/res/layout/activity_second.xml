@@ -114,7 +114,7 @@
         android:paddingLeft="5dp"
         android:paddingTop="5dp"
         android:paddingBottom="5dp"
-        android:text="@string/tvCharacterLore"
+        android:text="string"
         android:textColor="#C3A758"
         android:textSize="12sp" />
 
