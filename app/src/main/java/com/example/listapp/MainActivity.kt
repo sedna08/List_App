@@ -24,8 +24,6 @@ class MainActivity : AppCompatActivity() {
         val heroChampionName1: Array<String> = resources.getStringArray(R.array.dota2_hero_names)
         val attributeRole1: Array<String> = resources.getStringArray(R.array.dota2_attributes)
         val shortDescription1: Array<String> = resources.getStringArray(R.array.dota2_short_description)
-        val lore1: Array<String> = resources.getStringArray(R.array.dota2_character_lore)
-        val reference1: Array<String> = resources.getStringArray(R.array.dota2_references)
         val imgAttributeRole1: TypedArray = resources.obtainTypedArray(R.array.dota2_img_attributes)
         val imgHeroChampion1: TypedArray = resources.obtainTypedArray(R.array.dota2_img_heroes)
 
@@ -33,8 +31,6 @@ class MainActivity : AppCompatActivity() {
         val heroChampionName2: Array<String> = resources.getStringArray(R.array.lol_champion_names)
         val attributeRole2: Array<String> = resources.getStringArray(R.array.lol_roles)
         val shortDescription2: Array<String> = resources.getStringArray(R.array.lol_short_description)
-        val lore2: Array<String> = resources.getStringArray(R.array.lol_character_lore)
-        val reference2: Array<String> = resources.getStringArray(R.array.lol_references)
         val imgAttributeRole2: TypedArray = resources.obtainTypedArray(R.array.lol_img_attributes)
         val imgHeroChampion2: TypedArray = resources.obtainTypedArray(R.array.lol_img_champions)
 

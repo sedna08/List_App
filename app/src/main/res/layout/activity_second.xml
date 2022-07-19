@@ -15,7 +15,7 @@
         android:background="#785A28" />
 
     <LinearLayout
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="#1A1D21"
         android:orientation="horizontal"
@@ -23,7 +23,7 @@
         android:paddingBottom="5dp">
 
         <ImageView
-            android:id="@+id/imageView3"
+            android:id="@+id/ivHeroIcon"
             android:layout_width="178dp"
             android:layout_height="100dp"
             app:srcCompat="@drawable/jinx"
@@ -32,7 +32,7 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="100dp"
             android:orientation="vertical"
             android:paddingLeft="5dp">
 
@@ -42,19 +42,19 @@
                 android:orientation="horizontal">
 
                 <ImageView
-                    android:id="@+id/imageView4"
+                    android:id="@+id/ivAttributeIcon"
                     android:layout_width="20dp"
                     android:layout_height="20dp"
                     android:layout_weight="1"
                     app:srcCompat="@drawable/role_icon_marksman" />
 
                 <TextView
-                    android:id="@+id/textView2"
+                    android:id="@+id/tvAttributeDescription"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/notoserif_regular"
                     android:paddingLeft="5dp"
-                    android:text="Intelligence"
+                    android:text="Attribute"
                     android:textAllCaps="true"
                     android:textColor="#FFFFFF"
                     android:textStyle="bold" />
@@ -65,7 +65,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/notoserif_bold"
-                android:text="Dragon knight"
+                android:text="Character Name"
                 android:textAllCaps="true"
                 android:textColor="#FFFFFF"
                 android:textSize="17sp"
@@ -78,14 +78,14 @@
                 android:background="#785A28" />
 
             <TextView
-                android:id="@+id/textView3"
+                android:id="@+id/tvSmallDescription"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/notoserif_regular"
-                android:text="Transforms into a formidable ranged dragon"
+                android:text="Small Description"
                 android:textAllCaps="true"
                 android:textColor="#A5E0E3"
-                android:textSize="10sp" />
+                android:textSize="10sp"/>
 
         </LinearLayout>
 

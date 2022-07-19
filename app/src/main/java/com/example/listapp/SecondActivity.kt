@@ -1,5 +1,6 @@
 package com.example.listapp
 
+import android.content.res.TypedArray
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import com.example.listapp.databinding.ActivitySecondBinding
@@ -14,9 +15,32 @@ class SecondActivity : AppCompatActivity() {
         val game = bundle!!.getString("game")
         val position = bundle!!.getInt("position")
 
-        binding.tvCharacterName.text = resources.getStringArray(R.array.dota2_hero_names)[position]
-        binding.tvCharacterName.text = resources.getStringArray(R.array.dota2_short_description)[position]
-        binding.tvCharacterName.text = resources.getStringArray(R.array.dota2_hero_names)[position]
+        if(game == "dota2") {
+            binding.root.setBackgroundResource(R.drawable.dota2_background)
+            binding.tvCharacterName.text = resources.getStringArray(R.array.dota2_hero_names)[position]
+            binding.tvCharacterLore.text = resources.getStringArray(R.array.dota2_character_lore)[position]
+            binding.tvAttributeDescription.text = resources.getStringArray(R.array.dota2_attributes)[position]
+            binding.tvSmallDescription.text = resources.getStringArray(R.array.dota2_short_description)[position]
+            binding.tvReference.text = resources.getStringArray(R.array.dota2_references)[position]
+            val imgHero: TypedArray = resources.obtainTypedArray(R.array.dota2_img_heroes)
+            val imgAttributeRole: TypedArray = resources.obtainTypedArray(R.array.dota2_img_attributes)
+            binding.ivHeroIcon.setImageDrawable(imgHero.getDrawable(position))
+            binding.ivAttributeIcon.setImageDrawable(imgAttributeRole.getDrawable(position))
+        }
+        else if(game == "lol") {
+            binding.root.setBackgroundResource(R.drawable.lol_background)
+            binding.tvCharacterName.text = resources.getStringArray(R.array.lol_champion_names)[position]
+            binding.tvCharacterLore.text = resources.getStringArray(R.array.lol_character_lore)[position]
+            binding.tvAttributeDescription.text = resources.getStringArray(R.array.lol_roles)[position]
+            binding.tvSmallDescription.text = resources.getStringArray(R.array.lol_short_description)[position]
+            binding.tvReference.text = resources.getStringArray(R.array.lol_references)[position]
+            val imgChampion: TypedArray = resources.obtainTypedArray(R.array.lol_img_champions)
+            val imgAttributeRole: TypedArray = resources.obtainTypedArray(R.array.lol_img_attributes)
+            binding.ivHeroIcon.setImageDrawable(imgChampion.getDrawable(position))
+            binding.ivAttributeIcon.setImageDrawable(imgAttributeRole.getDrawable(position))
+
+        }
+
 
     }
 }
