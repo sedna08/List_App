@@ -6,44 +6,86 @@
     <string name="tvCharacterName">Character Name</string>
     <string name="tvCharacterLore">Character Lore</string>
 
-    <!-- Character Names LOL -->
-    <string name="JinxName">Jinx</string>
-    <string name="CaitlynName">Caitlyn</string>
-    <string name="ViName">Vi</string>
-    <string name="JayceName">Jayce</string>
-    <string name="EkkoName">Ekko</string>
+    <!--    Dota 2 hero details and lores-->
+    <string-array name="dota2_hero_names">
+        <item>Dragon Knight</item>
+        <item>Invoker</item>
+        <item>Luna</item>
+        <item>Lina</item>
+        <item>Mirana</item>
+    </string-array>
 
-    <!-- Character Names DOTA 2 -->
-    <string name="DavionName">Davion, The Dragon Knight</string>
-    <string name="CarlName">Carl, The Invoker</string>
-    <string name="LunaName">Luna, The Moon Rider</string>
-    <string name="LinaName">Lina, The Slayer</string>
-    <string name="MiranaName">Mirana, The Princess of the Moon</string>
+    <string-array name="dota2_attributes">
+        <item>Strength</item>
+        <item>Intelligence</item>
+        <item>Agility</item>
+        <item>Intelligence</item>
+        <item>Agility</item>
+    </string-array>
 
-    <!-- Character Lores LOL -->
-    <string name="JinxLore">A manic and impulsive criminal from Zaun, Jinx lives to wreak havoc without care for the consequences. With an arsenal of deadly weapons, she unleashes the loudest blasts and brightest explosions to leave a trail of mayhem and panic in her wake. Jinx despises boredom, and gleefully brings her own chaotic brand of pandemonium wherever she goes.</string>
-    <string name="CaitlynLore">Renowned as its finest peacekeeper, Caitlyn is also Piltover’s best shot at ridding the city of its elusive criminal elements. She is often paired with Vi, acting as a cool counterpoint to her partner’s more impetuous nature. Even though she carries a one-of-a-kind hextech rifle, Caitlyn’s most powerful weapon is her superior intellect, allowing her to lay elaborate traps for any lawbreakers foolish enough to operate in the City of Progress.</string>
-    <string name="ViLore">Once a criminal from the mean streets of Zaun, Vi is a hotheaded, impulsive, and fearsome woman with only a very loose respect for authority figures. Growing up all but alone, Vi developed finely honed survival instincts as well as a wickedly abrasive sense of humor. Now working with the Wardens to keep the peace in Piltover, she wields mighty hextech gauntlets that can punch through walls—and suspects—with equal ease.</string>
-    <string name="JayceLore">Jayce is a brilliant inventor who has pledged his life to the defense of Piltover and its unyielding pursuit of progress. With his transforming hextech hammer in hand, Jayce uses his strength, courage, and considerable intelligence to protect his hometown. While revered throughout the city as a hero, he hasn’t taken well to the attention heroism brings. Still, Jayce’s heart is in the right place, and even those who envy his natural skills are grateful for his protection in the City of Progress.</string>
-    <string name="EkkoLore">A prodigy from the rough streets of Zaun, Ekko manipulates time to twist any situation to his advantage. Using his own invention, the Z-Drive, he explores the branching possibilities of reality to craft the perfect moment. Though he revels in this freedom, when there’s a threat to his friends, he’ll do anything to defend them. To outsiders, Ekko seems to achieve the impossible the first time, every time.</string>
+    <string-array name="dota2_short_description">
+        <item>Transforms into a formidable ranged dragon</item>
+        <item>Weaves magic with an array of spell combos</item>
+        <item>Tears into her enemies with bouncing attacks</item>
+        <item>Increases attack and speed with every spell</item>
+        <item>Stuns enemies with precise arrows from afar</item>
+    </string-array>
 
-    <!-- Character Lore DOTA 2 -->
-    <string name="DavionLore">After years on the trail of a legendary Eldwurm, the Knight Davion found himself facing a disappointing foe: the dreaded Slyrak had grown ancient and frail, its wings tattered,its few remaining scales stricken with scale-rot, its fangs ground to nubs, and its fire-gouts no more threatening than a pack of wet matchsticks.\n\nSeeing no honor to be gained in dragon-murder, Knight Davion prepared to turn away and leave his old foe to die in peace. But a voice crept into his thoughts, and Slyrak gave a whispered plea that Davion might honor him with death in combat. Davion agreed, and found himself rewarded beyond expectation for his act of mercy: As he sank his blade in Slyrak\'s breast, the dragon pierced Davion's throat with a talon.As their blood mingled, Slyrak sent his power out along the Blood Route, sending all its strength and centuries of wisdom to the knight. The dragon's death sealed their bond and Dragon Knight was born.The ancient power slumbers in the Dragon Knight Davion, waking when he calls it. Or perhaps it is the Dragon that calls the Knight…</string>
-    <string name="CarlLore">A nameless Elven sage, the Invoker lives as a stoic but wise recluse in his tower which is filled to the brim with magic,causing it to be invisible to all but those with a gifted sight or magic items that grant supernatural vision.\n\nTales among the \"moon children\" speak of a sage who is said to have the power to bring back the true goddess Mene who dwells in the magical lotuses in the pools of Selemene\'s Temple.A young but determined Elven youth named Fymryn is determined to meet this man and fulfill the prophecy, setting the series' events into motion towards a fate of cosmic proportions where heaven and hell clash beyond their boundaries, a fate that she never intended to achieve.</string>
-    <string name="LunaLore">How had she been reduced to this? She was once the Scourge of the Plains, a merciless leader of men and beasts, and able to sow terror wherever she dared. Now she was far from her homeland, driven half mad from starvation and months of wandering, her army long dead or worse. As she stood at the edge of an ancient forest, a pair of glowing eyes spied on from an elder branch. Something beautiful and deadly sought a meal in the wilting dusk. Without a sound, it turned and left. Fury overtook her. Clutching a rust-eaten dagger, she charged after the beast determined to reclaim even a shred of her past glory, but her quarry would not be caught. Three times she cornered the creature among the rocks and trees, and three times she pounced only to witness its fading shadow darting further into the woods. Yet the full moon shone brightly, and the creature\'s trail was easy to follow.</string>
-    <string name="LinaLore">The sibling rivalries between Lina the Slayer, and her younger sister Rylai, the Crystal Maiden, were the stuff of legend in the temperate region where they spent their quarrelsome childhoods together. Lina always had the advantage, however, for while Crystal was guileless and naive, Lina\'s fiery ardor was tempered by cleverness and conniving. The exasperated parents of these incompatible offspring went through half a dozen homesteads, losing one to fire, the next to ice, before they realized life would be simpler if the children were separated. As the oldest, Lina was sent far south to live with a patient aunt in the blazing Desert of Misrule, a climate that proved more than comfortable for the fiery Slayer. Her arrival made quite an impression on the somnolent locals, and more than one would-be suitor scorched his fingers or went away with singed eyebrows, his advances spurned. Lina is proud and confident, and nothing can dampen her flame.</string>
-    <string name="MiranaLore">Born to a royal family, a blood princess next in line for the Solar Throne, Mirana willingly surrendered any claim to mundane land or titles when she dedicated herself completely to the service of Selemene, Goddess of the Moon. Known ever since as Princess of the Moon, Mirana prowls the sacred Nightsilver Woods searching for any who would dare poach the sacred luminous lotus from the silvery pools of the Goddess\'s preserve. Riding on her enormous feline familiar, she is poised, proud and fearless, attuned to the phases of the moon and the wheeling of the greater constellations. Her bow, tipped with sharp shards of lunar ore, draws on the moon's power to charge its arrows of light.</string>
+    <string-array name="dota2_character_lore">
+        <item>After years on the trail of a legendary Eldwurm, the Knight Davion found himself facing a disappointing foe: the dreaded Slyrak had grown ancient and frail, its wings tattered,its few remaining scales stricken with scale-rot, its fangs ground to nubs, and its fire-gouts no more threatening than a pack of wet matchsticks.\n\nSeeing no honor to be gained in dragon-murder, Knight Davion prepared to turn away and leave his old foe to die in peace. But a voice crept into his thoughts, and Slyrak gave a whispered plea that Davion might honor him with death in combat. Davion agreed, and found himself rewarded beyond expectation for his act of mercy: As he sank his blade in Slyrak\'s breast, the dragon pierced Davion\'s throat with a talon.As their blood mingled, Slyrak sent his power out along the Blood Route, sending all its strength and centuries of wisdom to the knight. The dragon\'s death sealed their bond and Dragon Knight was born.The ancient power slumbers in the Dragon Knight Davion, waking when he calls it. Or perhaps it is the Dragon that calls the Knight…</item>
+        <item>A nameless Elven sage, the Invoker lives as a stoic but wise recluse in his tower which is filled to the brim with magic,causing it to be invisible to all but those with a gifted sight or magic items that grant supernatural vision.\n\nTales among the \"moon children\" speak of a sage who is said to have the power to bring back the true goddess Mene who dwells in the magical lotuses in the pools of Selemene\'s Temple.A young but determined Elven youth named Fymryn is determined to meet this man and fulfill the prophecy, setting the series\' events into motion towards a fate of cosmic proportions where heaven and hell clash beyond their boundaries, a fate that she never intended to achieve.</item>
+        <item>How had she been reduced to this? She was once the Scourge of the Plains, a merciless leader of men and beasts, and able to sow terror wherever she dared. Now she was far from her homeland, driven half mad from starvation and months of wandering, her army long dead or worse. As she stood at the edge of an ancient forest, a pair of glowing eyes spied on from an elder branch. Something beautiful and deadly sought a meal in the wilting dusk. Without a sound, it turned and left. Fury overtook her. Clutching a rust-eaten dagger, she charged after the beast determined to reclaim even a shred of her past glory, but her quarry would not be caught. Three times she cornered the creature among the rocks and trees, and three times she pounced only to witness its fading shadow darting further into the woods. Yet the full moon shone brightly, and the creature\'s trail was easy to follow.</item>
+        <item>The sibling rivalries between Lina the Slayer, and her younger sister Rylai, the Crystal Maiden, were the stuff of legend in the temperate region where they spent their quarrelsome childhoods together. Lina always had the advantage, however, for while Crystal was guileless and naive, Lina\'s fiery ardor was tempered by cleverness and conniving. The exasperated parents of these incompatible offspring went through half a dozen homesteads, losing one to fire, the next to ice, before they realized life would be simpler if the children were separated. As the oldest, Lina was sent far south to live with a patient aunt in the blazing Desert of Misrule, a climate that proved more than comfortable for the fiery Slayer. Her arrival made quite an impression on the somnolent locals, and more than one would-be suitor scorched his fingers or went away with singed eyebrows, his advances spurned. Lina is proud and confident, and nothing can dampen her flame.</item>
+        <item>Born to a royal family, a blood princess next in line for the Solar Throne, Mirana willingly surrendered any claim to mundane land or titles when she dedicated herself completely to the service of Selemene, Goddess of the Moon. Known ever since as Princess of the Moon, Mirana prowls the sacred Nightsilver Woods searching for any who would dare poach the sacred luminous lotus from the silvery pools of the Goddess\'s preserve. Riding on her enormous feline familiar, she is poised, proud and fearless, attuned to the phases of the moon and the wheeling of the greater constellations. Her bow, tipped with sharp shards of lunar ore, draws on the moon\'s power to charge its arrows of light.</item>
+    </string-array>
 
-    <!-- References -->
-    <string name="JinxReference">https://universe.leagueoflegends.com/en_US/champion/jinx/</string>
-    <string name="CaitlynReference">https://universe.leagueoflegends.com/en_US/champion/caitlyn/</string>
-    <string name="ViReference">https://universe.leagueoflegends.com/en_US/champion/vi/</string>
-    <string name="JayceReference">https://universe.leagueoflegends.com/en_US/champion/jayce/</string>
-    <string name="EkkoReference">https://universe.leagueoflegends.com/en_US/champion/ekko/</string>
-    <string name="DavionReference">https://dota2.fandom.com/wiki/Dragon_Knight</string>
-    <string name="CarlReference">https://dota2.fandom.com/wiki/Invoker</string>
-    <string name="LunaReference">https://dota2.fandom.com/wiki/Luna</string>
-    <string name="LinaReference">https://dota2.fandom.com/wiki/Lina</string>
-    <string name="MiranaReference">https://dota2.fandom.com/wiki/Mirana</string>
+    <string-array name="dota2_references">
+        <item>https://dota2.fandom.com/wiki/Dragon_Knight</item>
+        <item>https://dota2.fandom.com/wiki/Invoker</item>
+        <item>https://dota2.fandom.com/wiki/Luna</item>
+        <item>https://dota2.fandom.com/wiki/Lina</item>
+        <item>https://dota2.fandom.com/wiki/Mirana</item>
+    </string-array>
+
+    <!--Lol champion details and lores-->
+    <string-array name="lol_champion_names">
+        <item>Jinx</item>
+        <item>Caitlyn</item>
+        <item>Vi</item>
+        <item>Jayce</item>
+        <item>Ekko</item>
+    </string-array>
+
+    <string-array name="lol_roles">
+        <item>Marksman</item>
+        <item>Marksman</item>
+        <item>Fighter</item>
+        <item>Fighter</item>
+        <item>Assassin</item>
+    </string-array>
+
+    <string-array name="lol_short_description">
+        <item>The loose cannon</item>
+        <item>The sheriff of piltover</item>
+        <item>The piltover enforcer</item>
+        <item>The defender of tomorrow</item>
+        <item>The boy who shattered time</item>
+    </string-array>
+
+    <string-array name="lol_character_lore">
+        <item>A manic and impulsive criminal from Zaun, Jinx lives to wreak havoc without care for the consequences. With an arsenal of deadly weapons, she unleashes the loudest blasts and brightest explosions to leave a trail of mayhem and panic in her wake. Jinx despises boredom, and gleefully brings her own chaotic brand of pandemonium wherever she goes.</item>
+        <item>Renowned as its finest peacekeeper, Caitlyn is also Piltover’s best shot at ridding the city of its elusive criminal elements. She is often paired with Vi, acting as a cool counterpoint to her partner’s more impetuous nature. Even though she carries a one-of-a-kind hextech rifle, Caitlyn’s most powerful weapon is her superior intellect, allowing her to lay elaborate traps for any lawbreakers foolish enough to operate in the City of Progress.</item>
+        <item>Once a criminal from the mean streets of Zaun, Vi is a hotheaded, impulsive, and fearsome woman with only a very loose respect for authority figures. Growing up all but alone, Vi developed finely honed survival instincts as well as a wickedly abrasive sense of humor. Now working with the Wardens to keep the peace in Piltover, she wields mighty hextech gauntlets that can punch through walls—and suspects—with equal ease.</item>
+        <item>Jayce is a brilliant inventor who has pledged his life to the defense of Piltover and its unyielding pursuit of progress. With his transforming hextech hammer in hand, Jayce uses his strength, courage, and considerable intelligence to protect his hometown. While revered throughout the city as a hero, he hasn’t taken well to the attention heroism brings. Still, Jayce’s heart is in the right place, and even those who envy his natural skills are grateful for his protection in the City of Progress.</item>
+        <item>A prodigy from the rough streets of Zaun, Ekko manipulates time to twist any situation to his advantage. Using his own invention, the Z-Drive, he explores the branching possibilities of reality to craft the perfect moment. Though he revels in this freedom, when there’s a threat to his friends, he’ll do anything to defend them. To outsiders, Ekko seems to achieve the impossible the first time, every time.</item>
+    </string-array>
+
+    <string-array name="lol_references">
+        <item>https://universe.leagueoflegends.com/en_US/champion/jinx</item>
+        <item>https://universe.leagueoflegends.com/en_US/champion/caitlyn/</item>
+        <item>https://universe.leagueoflegends.com/en_US/champion/vi/</item>
+        <item>https://universe.leagueoflegends.com/en_US/champion/jayce/</item>
+        <item>https://universe.leagueoflegends.com/en_US/champion/ekko/</item>
+    </string-array>
 
 </resources>

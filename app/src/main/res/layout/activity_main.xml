@@ -1,7 +1,129 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"/>
+    android:background="#111318"
+    android:orientation="vertical"
+    android:padding="15dp"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/dota2" />
+
+        <TextView
+            android:id="@+id/tvHeroes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:fontFamily="@font/notoserif_bold"
+            android:paddingLeft="5dp"
+            android:text="CHOOSE YOUR HERO"
+            android:textColor="#C28F2C"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvHeroesDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="@font/notoserif_regular"
+        android:text="From magical tacticians to fierce brutes and cunning rogues, Dota 2's hero pool is massive and limitlessly diverse. Unleash incredible abilities and devastating ultimates on your way to victory."
+        android:textColor="#FFFFFF"
+        android:textSize="12sp" />
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#785A28" />
+
+    <ListView
+        android:id="@+id/lvHeroes"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:background="#1A1D21"
+        android:drawSelectorOnTop="true"
+        android:fadeScrollbars="false"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:divider="#423314"
+        android:dividerHeight="1dp">
+
+    </ListView>
+
+    <View
+        android:id="@+id/divider2"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginBottom="10dp"
+        android:background="#785A28" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/lol" />
+
+        <TextView
+            android:id="@+id/tvChampions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:fontFamily="@font/notoserif_bold"
+            android:paddingLeft="5dp"
+            android:text="CHOOSE YOUR CHAMPION"
+            android:textColor="#C28F2C"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvChampionsDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="@font/notoserif_regular"
+        android:text="With more than 140 champions, you’ll find the perfect match for your playstyle. Master one, or master them all."
+        android:textColor="#FFFFFF"
+        android:textSize="12sp" />
+
+    <View
+        android:id="@+id/divider3"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#785A28" />
+
+    <ListView
+        android:id="@+id/lvChampions"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:background="#1A1D21"
+        android:divider="#423314"
+        android:dividerHeight="1dp"
+        android:drawSelectorOnTop="true"
+        android:fadeScrollbars="false" />
+
+    <View
+        android:id="@+id/divider4"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#785A28" />
+
+</LinearLayout>

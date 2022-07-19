@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="dota2_img_attributes">
+        <item>@drawable/hero_strength</item>
+        <item>@drawable/hero_intelligence</item>
+        <item>@drawable/hero_agility</item>
+        <item>@drawable/hero_intelligence</item>
+        <item>@drawable/hero_agility</item>
+    </array>
+
+    <array name="dota2_img_heroes">
+        <item>@drawable/dragon_knight</item>
+        <item>@drawable/invoker</item>
+        <item>@drawable/luna</item>
+        <item>@drawable/lina</item>
+        <item>@drawable/mirana</item>
+    </array>
+
+    <array name="lol_img_attributes">
+        <item>@drawable/role_icon_marksman</item>
+        <item>@drawable/role_icon_marksman</item>
+        <item>@drawable/role_icon_fighter</item>
+        <item>@drawable/role_icon_fighter</item>
+        <item>@drawable/role_icon_assassin</item>
+    </array>
+
+    <array name="lol_img_champions">
+        <item>@drawable/jinx</item>
+        <item>@drawable/caitlyn</item>
+        <item>@drawable/vi</item>
+        <item>@drawable/jayce</item>
+        <item>@drawable/ekko</item>
+    </array>
+</resources>
